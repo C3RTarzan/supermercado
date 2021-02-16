@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0, #ffffff, #95e6ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+section div{
+    position: relative;
+    top: 30%;
+    width: 900px;
+}
+
+section div form h1{
+    font-size: 30px;
+    cursor: default;
+}
+section div form a{
+    position: absolute;
+    left: -20%;
+    top: -20%;
+    text-decoration: none;
+    background-color: rgb(18, 167, 18);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: black;
+    width: 60px;
+    padding-left: 9px;
+    color: white;
+}
+section div form a:active{
+    background-color: rgb(22, 194, 22);
+}
+section div form span{
+    font-size: 25px;
+    cursor: default;
+
+}
+section div form input{
+    width: 100%;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.302);
+    outline: none;
+}
+section div form input[type="submit"]{
+    margin-top: 30px;
+    width: 250px;
+    background-color: rgb(18, 167, 18);
+    color: rgb(255, 255, 255);
+    border-style: groove;
+    cursor: pointer;
+}
+section div form input[type="submit"]:active{
+    background-color: rgb(22, 194, 22);
+}
+
+section div .erro{
+    position: absolute;
+    color: teal;
+    font-size: 18px;
+    top: 30px;
+    left: 10px;
+}
+section div .erro2{
+    position: absolute;
+    color: teal;
+    font-size: 18px;
+    top: 60px;
+    left: 10px;
+}
